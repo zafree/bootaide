@@ -30,7 +30,7 @@ bootaide/
 │   ├── midnight.jquery.min.js
 │   ├── photoSwipe.js
 │   ├── svg.separator.js
-│   └── zero-init.js
+│   └── zf-init.js
 │
 ├── less/
 │
