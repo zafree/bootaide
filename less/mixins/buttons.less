@@ -1,0 +1,41 @@
+// Button variants
+
+.button-variant(@color; @background; @border) {
+  color: @color !important;
+  background-color: @background;
+  border-color: @border;
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    color: @color;
+    background-color: darken(@background, 10%);
+        border-color: darken(@border, 10.5%);
+  }
+  &:active,
+  &.active,
+  .open > .dropdown-toggle& {
+    background-image: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: @background;
+          border-color: @border;
+    }
+  }
+
+  .badge {
+    color: @background;
+    background-color: @color;
+  }
+}

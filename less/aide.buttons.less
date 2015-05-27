@@ -1,0 +1,43 @@
+.btn{
+  font-weight: 500;
+  border-radius: @btn-border-radius;
+  outline: 0!important;
+}
+.btn-link{
+  color: @text-color;
+  &.active{
+    .box-shadow(none);
+  }
+}
+
+.btn-default{
+  .button-variant(@text-color, @btn-default-bg, @btn-default-border);
+  background-color: #fff;
+  border-bottom-color: darken(@btn-default-border, 2%);
+  .box-shadow(none);
+  &.btn-bg{
+    border-color:rgba(0,0,0,0.1);
+    background-clip: padding-box;
+  }
+}
+
+.btn-white {
+  .button-variant(@text-color, @brand-white, darken(@brand-white, 5%));
+}
+
+.btn-light {
+  .button-variant(lighten(@text-color, 1%), @brand-light, darken(@brand-light, 2%));
+}
+
+.btn_colorClasses(@i:3) when(@i <= length(@array_brand)) {
+    @brand-name: extract(extract(@array_brand, @i),1);
+    @brand-color: e("brand-@{brand-name}");
+      .btn-@{brand-name} {
+        .button-variant(#fff, @@brand-color, darken(@@brand-color, 5%));
+      }
+    .btn_colorClasses((@i + 1));
+}
+.btn_colorClasses();
+
+
+

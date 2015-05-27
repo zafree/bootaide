@@ -1,0 +1,18 @@
+{
+  "name": "source-sans-pro-build",
+  "version": "0.0.1",
+  "description": "Build System for Source Sans Pro @font-face kit",
+  "main": "gulpfile.js",
+  "scripts": {},
+  "author": "Reza Qorbani",
+  "license": "IT Originator, Inc.",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-csscomb": "^3.0.3",
+    "gulp-less": "^1.3.6",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-rename": "^1.2.0"
+  },
+  "dependencies": {}
+}

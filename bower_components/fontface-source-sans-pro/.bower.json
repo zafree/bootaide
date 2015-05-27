@@ -1,0 +1,44 @@
+{
+  "name": "fontface-source-sans-pro",
+  "homepage": "https://github.com/qorbani/fontface-source-sans-pro",
+  "authors": [
+    "Reza Qorbani <reza@qorbani.com>"
+  ],
+  "description": "Source Sans Pro @font-face kit",
+  "main": "css/source-sans-pro.css",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qorbani/fontface-source-sans-pro.git"
+  },
+  "keywords": [
+    "fontface",
+    "font",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "web",
+    "source sans pro",
+    "source sans",
+    "sourcesanspro",
+    "sourcesans"
+  ],
+  "license": [
+    "MIT",
+    "SIL OFL 1.1"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "482c5ba192",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "482c5ba192e32a522660e310ece70d01f656c45e"
+  },
+  "_source": "git://github.com/qorbani/fontface-source-sans-pro.git",
+  "_target": "*",
+  "_originalSource": "fontface-source-sans-pro"
+}

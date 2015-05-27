@@ -1,0 +1,71 @@
+// Owl Carousel 2
+.owl-theme {
+  .owl-controls {
+    margin-top: 20px;
+  }
+  .owl-dots .owl-dot {
+    span {
+      border-radius: 50%;
+      .transition(all 0.3s);
+    }
+    &.active span {
+      .scale(1.6);
+    }
+  }
+}
+
+
+
+// dot align
+// ----------------------------
+.dots-left.owl-theme .owl-dots{
+  text-align: left;
+  .owl-dot:first-child span {
+    margin-left: 0;
+  }
+}
+.dots-right.owl-theme .owl-dots{
+  text-align: right;
+  .owl-dot:last-child span {
+    margin-right: 0;
+  }
+}
+// says
+// ----------------------------
+.owl-carousel-says.owl-theme {
+  .owl-controls {
+    position: absolute;
+    right: 22px;
+    top: 85px;
+  }
+  .owl-dots .owl-dot {
+    display: table;
+  }
+}
+
+//dots color
+.owl-dot_colorClasses(@i:1) when(@i <= length(@array_brand)) {
+    @brand-name: extract(extract(@array_brand, @i),1);
+    @brand-color: e("brand-@{brand-name}");
+      .dots-@{brand-name}.owl-theme .owl-dots .owl-dot {
+        span,
+        &.active span,
+        &:hover span {
+          background-color: @@brand-color;
+        }
+      }
+    .owl-dot_colorClasses((@i + 1));
+}
+.owl-dot_colorClasses();
+
+.owl-dot-active_colorClasses(@i:1) when(@i <= length(@array_brand)) {
+    @brand-name: extract(extract(@array_brand, @i),1);
+    @brand-color: e("brand-@{brand-name}");
+      .dot-active-@{brand-name}.owl-theme .owl-dots .owl-dot {
+        &.active span {
+          background-color: @@brand-color;
+        }
+      }
+    .owl-dot-active_colorClasses((@i + 1));
+}
+.owl-dot-active_colorClasses();

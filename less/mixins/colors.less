@@ -1,0 +1,116 @@
+// Contextual backgrounds
+.color-variant(@bg-color) {
+  background-color: @bg-color;
+    > .lter,
+    &.lter {
+      background-color: lighten(@bg-color, 10%);
+    }
+    > .lt,
+    &.lt {
+      background-color: lighten(@bg-color, 5%);
+    }
+    > .bg {
+      background-color: @bg-color;
+    }
+    > .dk,
+    &.dk {
+      background-color: darken(@bg-color, 5%);
+    }
+    > .dker,
+    &.dker {
+      background-color: darken(@bg-color, 10%);
+    }
+}
+
+.font-variant(@text-color){
+  @font-color:  lighten(@text-color, 40%);
+  @link-color:  lighten(@text-color, 50%);
+  @hover-color: darken(@text-color, 25%);
+  color: @font-color;
+  a {
+    color: @link-color;
+    &:hover{
+      color: @hover-color;
+    }
+  }
+}
+
+// Contextual text
+.text-variant(@bg-color, @name){
+  a.bg-@{name}:hover{
+    background-color: darken(@bg-color, 5%);
+  }
+  a.text-@{name}:hover{
+    color: darken(@bg-color, 5%);
+  }
+  .text-@{name}{
+    color: @bg-color;
+    a,
+    a& {
+      color: @bg-color;
+    }
+    
+    &.text-lter,
+    .text-lter{
+      color: lighten(@bg-color, 10%);
+    }
+    &.text-lt,
+    .text-lt{
+      color: lighten(@bg-color, 5%);
+    }
+    .text{
+      color: @bg-color;
+    }
+    &.text-dk,
+    .text-dk{
+      color: darken(@bg-color, 5%);
+    }
+    &.text-dker,
+    .text-dker{
+      color: darken(@bg-color, 10%);
+    }
+  }
+}
+
+// Contextual border
+.border-variant(@border-color) {
+  border-color: @border-color;
+    .b-lter,
+    &.b-lter {
+      border-color: lighten(@border-color, 10%);
+    }
+    .b-lt,
+    &.b-lt {
+      border-color: lighten(@border-color, 5%);
+    }
+    .b-dk,
+    &.b-dk {
+      border-color: darken(@border-color, 5%);
+    }
+    .b-dker,
+    &.b-dker {
+      border-color: darken(@border-color, 10%);
+    }
+}
+
+//svg fill
+.fill-variant(@bg-color) {
+  fill: @bg-color;
+    &.fill-lter {
+      fill: lighten(@bg-color, 10%);
+    }
+    &.fill-lt {
+      fill: lighten(@bg-color, 5%);
+    }
+    &.fill-dk {
+      fill: darken(@bg-color, 5%);
+    }
+    &.fill-dker {
+      fill: darken(@bg-color, 10%);
+    }
+}
+
+// Img backgrounds
+.img-variant(@bg-color) {
+  background-color: @bg-color;
+}

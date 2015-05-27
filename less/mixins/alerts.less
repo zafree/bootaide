@@ -1,0 +1,13 @@
+// Alerts
+.alert-variant(@background; @border; @text-color) {
+  background-color: lighten(@background, 35%);
+  border-color: lighten(@border, 30%);
+  color: darken(@text-color, 7.5%);
+
+  hr {
+    border-top-color: darken(@border, 5%);
+  }
+  .alert-link {
+    color: darken(@text-color, 10%);
+  }
+}

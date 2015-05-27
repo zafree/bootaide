@@ -1,0 +1,38 @@
+{
+  "name": "bootaide",
+  "version": "0.0.0",
+  "description": "Loving Web application user interface.",
+  "keywords": [
+    "boorstrap",
+    "bootaide",
+    "app",
+    "ui",
+    "flat",
+    "interface"
+  ],
+  "authors": [
+    "Zafree"
+  ],
+  "license": "MIT",
+  "url": "https://github.com/zafree/bootaide/blob/master/LICENSE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.4",
+    "animate.css": "~3.2.6",
+    "font-awesome": "~4.3.0",
+    "simple-line-icons": "~1.0.0",
+    "fontface-source-sans-pro": "*",
+    "bootstrapvalidator": "~0.5.3",
+    "headroom.js": "~0.7.0",
+    "jquery.scrollTo": "~2.1.0",
+    "owl-carousel2": "*",
+    "photoswipe": "~4.0.7",
+    "google-code-prettify": "~1.0.4",
+    "highlightjs": "~8.5.0"
+  }
+}

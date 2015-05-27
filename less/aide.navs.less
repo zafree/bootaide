@@ -1,0 +1,83 @@
+.navbar-default .navbar-nav {
+  > .active {
+   > a {
+      background-color: @nav-active;
+      &:hover,
+      &:focus {
+        background-color: @nav-active;
+      }
+    }
+  }
+} 
+
+.nav{
+  > li{
+    > a{
+      &:hover,
+      &:focus{
+        background-color: @nav-bg;
+      }
+    }
+  }
+  &.nav-lg{
+    > li > a{
+      padding: 20px 20px;
+    }
+  }
+  &.nav-md{
+    > li > a{
+      padding: 15px 15px;
+    }
+  }
+  &.nav-sm{
+    > li > a{
+      padding: 6px 12px;
+    }
+  }
+  &.nav-xs{
+    > li > a{
+      padding: 4px 10px;
+    }
+  }
+  &.nav-xxs{
+    > li > a{
+      padding: 1px 10px;
+    }
+  }
+  &.nav-rounded{
+    > li > a{
+      border-radius: 20px;
+    }
+  }
+  .open{
+    > a{
+      &,
+      &:hover,
+      &:focus{
+        background-color: @nav-bg;
+      }
+    }
+  }
+}
+
+
+.nav-pills {
+  > li {
+    // Links rendered as pills
+    > a {
+      border-radius: @border-radius-base;
+    }
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: @brand-primary;
+        > .badge {
+          color: @brand-primary;
+        }
+      }
+    }
+    
+  }
+}

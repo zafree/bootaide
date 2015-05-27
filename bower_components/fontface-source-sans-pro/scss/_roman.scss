@@ -1,0 +1,81 @@
+/* Source Sans Pro (Roman package) @font-face kit */
+
+$SourceSansProFontsPath: "../fonts" !default;
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-ExtraLight'),
+         local('Source Sans Pro'),
+         url('#{$SourceSansProFontsPath}/EOT/SourceSansPro-ExtraLight.eot') format('embedded-opentype'),
+         url('#{$SourceSansProFontsPath}/WOFF/OTF/SourceSansPro-ExtraLight.otf.woff') format('woff'),
+         url('#{$SourceSansProFontsPath}/OTF/SourceSansPro-ExtraLight.otf') format('opentype'),
+         url('#{$SourceSansProFontsPath}/TTF/SourceSansPro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Light'),
+         local('Source Sans Pro'),
+         url('#{$SourceSansProFontsPath}/EOT/SourceSansPro-Light.eot') format('embedded-opentype'),
+         url('#{$SourceSansProFontsPath}/WOFF/OTF/SourceSansPro-Light.otf.woff') format('woff'),
+         url('#{$SourceSansProFontsPath}/OTF/SourceSansPro-Light.otf') format('opentype'),
+         url('#{$SourceSansProFontsPath}/TTF/SourceSansPro-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Regular'),
+         local('Source Sans Pro'),
+         url('#{$SourceSansProFontsPath}/EOT/SourceSansPro-Regular.eot') format('embedded-opentype'),
+         url('#{$SourceSansProFontsPath}/WOFF/OTF/SourceSansPro-Regular.otf.woff') format('woff'),
+         url('#{$SourceSansProFontsPath}/OTF/SourceSansPro-Regular.otf') format('opentype'),
+         url('#{$SourceSansProFontsPath}/TTF/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Semibold'),
+         local('Source Sans Pro Semibold'),
+         url('#{$SourceSansProFontsPath}/EOT/SourceSansPro-Semibold.eot') format('embedded-opentype'),
+         url('#{$SourceSansProFontsPath}/WOFF/OTF/SourceSansPro-Semibold.otf.woff') format('woff'),
+         url('#{$SourceSansProFontsPath}/OTF/SourceSansPro-Semibold.otf') format('opentype'),
+         url('#{$SourceSansProFontsPath}/TTF/SourceSansPro-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Bold'),
+         local('Source Sans Pro Bold'),
+         url('#{$SourceSansProFontsPath}/EOT/SourceSansPro-Bold.eot') format('embedded-opentype'),
+         url('#{$SourceSansProFontsPath}/WOFF/OTF/SourceSansPro-Bold.otf.woff') format('woff'),
+         url('#{$SourceSansProFontsPath}/OTF/SourceSansPro-Bold.otf') format('opentype'),
+         url('#{$SourceSansProFontsPath}/TTF/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('SourceSansPro-Black'),
+         local('Source Sans Pro Black'),
+         url('#{$SourceSansProFontsPath}/EOT/SourceSansPro-Black.eot') format('embedded-opentype'),
+         url('#{$SourceSansProFontsPath}/WOFF/OTF/SourceSansPro-Black.otf.woff') format('woff'),
+         url('#{$SourceSansProFontsPath}/OTF/SourceSansPro-Black.otf') format('opentype'),
+         url('#{$SourceSansProFontsPath}/TTF/SourceSansPro-Black.ttf') format('truetype');
+}

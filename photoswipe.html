@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>PhotoSwipe | Bootaide</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+	    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css" />
+	    <link rel="stylesheet" href="bower_components/fontface-source-sans-pro/css/source-sans-pro.min.css"/>
+	    <link rel="stylesheet" href="bower_components/owl-carousel2/dist/assets/owl.carousel.min.css" />
+	    <link rel="stylesheet" href="bower_components/owl-carousel2/dist/assets/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="dist/css/bootaide.min.css" />
+		
+		<!--photoswipe -->
+		<link rel="stylesheet prefetch" href="bower_components/photoswipe/dist/photoswipe.css">
+		<link rel="stylesheet prefetch" href="bower_components/photoswipe/dist/default-skin/default-skin.css">
+		
+		<style>
+			.swipe-gallery figcaption {
+			  display: none;
+			}
+		</style>
+
+</head>
+
+<body>
+	
+		<header class="bg-white navbar-fixed-top box-shadow">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="btn btn-link visible-xs pull-right m-r m-t-sm" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a href="." class="navbar-brand m-r-lg"><img src="img/logo.png" class="m-r-sm hide"><span class="h3 font-bold">Bootaide</span></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active hide">
+							<a href=".">Home</a>
+						</li>
+						<li>
+							<a href="start.html">Start</a>
+						</li>
+						<li>
+							<a href="css.html">CSS</a>
+						</li>
+						<li>
+							<a href="typo.html">Typo</a>
+						</li>
+						<li>
+							<a href="components.html">Components</a>
+						</li>
+						<li>
+							<a href="ui-kit.html">UI Kit</a>
+						</li>
+						<li class="dropdown">
+							<a href data-toggle="dropdown">Hello <i class="fa fa-caret-down"></i></a>
+							<!-- dropdown -->
+							<ul class="dropdown-menu w p-t">
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="progress-bar.html">Progress-bar</a>
+								</li>
+								<li>
+									<a href="seperators.html"> <span class="badge bg-success pull-right">NEW</span> <span>Separators</span> </a>
+								</li>
+								<li>
+									<a href="pricing.html">Pricing</a>
+								</li>
+								<li>
+									<a href="says.html">Says</a>
+								</li>
+								<li>
+									<a href="form.html"> <span class="label bg-info pull-right">valid</span> Form </a>
+								</li>
+								<li>
+									<a href="blog.html">Blog</a>
+								</li>
+								<li>
+									<a href="parallax.html">Parallax</a>
+								</li>
+								<li>
+									<a href="chat.html"> <span class="badge bg-light pull-right">NEW</span> Chat</a>
+								</li>
+								<li>
+									<a href="photoswipe.html">PhotoSwipe</a>
+								</li>
+								<li>
+									<a href="video.html">Video</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="themeaide.html" target="_blank">Themeaide</a>
+								</li>
+								<li>
+									<a href="personal-bio.html">Personal Bio</a>
+								</li>
+							</ul>
+							<!-- / dropdown -->
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<section class="p-t-xxl bg-primary">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 text-center p-v m-v-xl">
+						<i class="icon-rocket  text-4x"></i>
+						<h1 class="font-thin">
+			              magical <span class="text-dark">work done</span>
+			            </h1>
+			            <p class="text-white">some awesome magical work we've done!</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="container-fluid">
+				<div class="row">
+					<div class="swipe-gallery clear">
+						
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d0.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d0.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 0</figcaption>
+					    </figure>
+						<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d1.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d1.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 1</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d2.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d2.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 2</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d3.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d3.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 3</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d4.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d4.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 4</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d5.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d5.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 5</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d6.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d6.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 6</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d7.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d7.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 7</figcaption>
+					    </figure>
+					    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+							<a class="" href="imgs/d8.jpg" itemprop="contentUrl" data-size="900x600">
+					        	<div class="col-sm-4 p-h-none text-white">
+					        		<img class="img-full" src="imgs/d8.jpg" itemprop="thumbnail" alt="Image description" />
+					      		</div>
+					      	</a>
+					      	<figcaption itemprop="caption description">Caption 8</figcaption>
+					    </figure>
+				    
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="bg-dark">
+			<div class="container">
+				<div class="row p-v m-t-md text-center">
+					
+					<p class="m-b-none">
+						Build with <i class="fa fa-heart-o m-h-2x"></i> by <a href="https://www.facebook.com/zafree" target="_blank"> Zafree</a>
+					</p>
+					<p>
+						Code licensed under <a href="https://github.com/zafree/bootaide/blob/master/LICENSE">MIT</a>, 
+						documentation under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.
+					</p>
+					<p>
+						2015 &copy; Bootaide
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		
+		    <!-- Background of PhotoSwipe. 
+		         It's a separate element, as animating opacity is faster than rgba(). -->
+		    <div class="pswp__bg"></div>
+		
+		    <!-- Slides wrapper with overflow:hidden. -->
+		    <div class="pswp__scroll-wrap">
+		
+		        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+		        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+		
+		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+		        <div class="pswp__ui pswp__ui--hidden">
+		
+		            <div class="pswp__top-bar">
+		
+		                <!--  Controls are self-explanatory. Order can be changed. -->
+		
+		                <div class="pswp__counter"></div>
+		
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+		
+		                <button class="pswp__button pswp__button--share" title="Share"></button>
+		
+		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+		
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+		
+		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+		                <!-- element will get class pswp__preloader--active when preloader is running -->
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+		            </div>
+		
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div> 
+		            </div>
+		
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+		
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+		
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+		
+		          </div>
+		
+		        </div>
+		
+		</div>
+		<!--/ -->
+		
+		
+		
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/headroom.js/dist/headroom.min.js"></script>
+		<script src="bower_components/owl-carousel2/dist/owl.carousel.min.js"></script>
+		
+		<!--photoswipe -->
+		<script src='bower_components/photoswipe/dist/photoswipe.min.js'></script>
+		<script src='bower_components/photoswipe/dist/photoswipe-ui-default.min.js'></script>
+		
+		<script src="dist/js/bootaide.min.js"></script>
+		
+	</body>
+</html>

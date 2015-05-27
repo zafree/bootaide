@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>Chat | Bootaide</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+	    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css" />
+	    <link rel="stylesheet" href="bower_components/fontface-source-sans-pro/css/source-sans-pro.min.css"/>
+	    <link rel="stylesheet" href="bower_components/owl-carousel2/dist/assets/owl.carousel.min.css" />
+	    <link rel="stylesheet" href="bower_components/owl-carousel2/dist/assets/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="dist/css/bootaide.min.css" />
+		
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<header class="bg-white navbar-fixed-top box-shadow">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="btn btn-link visible-xs pull-right m-r m-t-sm" type="button" data-toggle="collapse" data-target=".navbar-demo-4">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a href="." class="navbar-brand m-r-sm"><img src="img/logo.png" class="m-r-sm hide"><span class="h4 font-bold">Bootaide</span></a>
+				</div>
+				<div class="collapse navbar-collapse navbar-demo-4">
+					
+					<!-- search form -->
+					<form class="navbar-form navbar-left m-v-sm">
+						<div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control input-sm bg-light" placeholder="Search">
+								<span class="input-group-btn">
+									<button type="submit" class="btn btn-sm bg-light">
+										<i class="fa fa-search"></i>
+									</button> 
+								</span>
+							</div>
+						</div>
+					</form>
+					<!-- / search form -->
+
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+				            <a href class="dropdown-toggle" data-toggle="dropdown">
+				            	<i class="icon-bell fa-fw"></i>
+				                <span class="visible-xs-inline">Notifications</span>
+				                <span class="badge badge-sm up bg-danger">2</span>
+				            </a>
+				            <!--dropdown -->
+				            <div class="dropdown-menu w-xl">
+				            	<div class="panel bg-white">
+					                <div class="panel-heading b-light bg-light">
+					                	<strong>You have <span>2</span> notifications</strong>
+					                </div>
+					                <div class="list-group">
+					                	<a class="list-group-item" href>
+						                    <span class="pull-left thumb-sm m-r-sm">
+						                    	<img src="imgs/a0.jpg" alt="..." class="img-circle">
+						                    </span>
+						                    <span class="block m-b-none">
+						                    	Panic message<br>
+						                    	<small class="text-muted">13 minutes ago</small>
+						                    </span>
+					                    </a>
+					                    <a class="list-group-item" href>
+						                    <span class="block m-b-none">
+						                    	First commit<br>
+						                    	<small class="text-muted">1 hour ago</small>
+						                    </span>
+					                    </a>
+					                </div>
+					                <div class="panel-footer text-sm">
+					                	<a class="pull-right" href><i class="fa fa-cog"></i></a>
+					                	<a href>See all the notifications</a>
+					                </div>
+				              	</div>
+				            </div>
+				            <!--/ dropdown -->
+				        </li>
+						<li class="dropdown">
+							<a href class="dropdown-toggle clear" data-toggle="dropdown"> 
+								<span class="thumb-sm avatar pull-right m-t-n-sm m-b-n-sm m-l-sm"> 
+									<img src="imgs/a0.jpg" alt="..."> 
+									<i class="on md b-white bottom"></i> 
+								</span> <span class="hidden-sm hidden-md">Gifaree.Evan</span>
+							</a>
+							<!--dropdown -->
+							<ul class="dropdown-menu w">
+								<li>
+									<a href> <span class="badge bg-danger pull-right">30%</span> <span>Settings</span> </a>
+								</li>
+								<li>
+									<a href>Profile</a>
+								</li>
+								<li>
+									<a href> <span class="label bg-info pull-right">new</span> Help </a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href>Logout</a>
+								</li>
+							</ul>
+							<!--/ dropdown -->
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		
+		<div class="pos-abt w-full" style="top:50px;bottom:0">
+			<div class="container h-full">
+				<div class="row h-full">
+					<div class="col-sm-3 h-full p-h-none b">
+						<div class="item">
+							<div class="top w-full box-shadow" style="z-index:1">
+								<div class="bg-light dker font-semi-bold inline w-full p-v-xs">
+									<ul class="nav navbar-nav">
+										<li>
+											<a href>Inbox</a>
+										</li>
+										<li>
+											<a class="text-muted" href>Others</a>
+										</li>
+									</ul>
+									<ul class="nav navbar-nav pull-right">
+										<li class="dropdown">
+											<a href class="dropdown-toggle clear" data-toggle="dropdown">More <span class="caret"></span></a>
+											<!--dropdown -->
+											<ul class="dropdown-menu w-sm pull-right">
+												<li>
+													<a href> <span class="badge bg-light pull-right">14</span> Unread</a>
+												</li>
+												<li>
+													<a href> <span class="badge bg-danger pull-right">30</span> <span>Span</span> </a>
+												</li>
+												<li>
+													<a href> <span class="badge bg-dark pull-right">3</span>  Trust </a>
+												</li>
+											</ul>
+											<!--/ dropdown -->
+										</li>
+									</ul>
+								</div>
+								<div class="wrapper-sm bg-light b-b">
+						          <div class="input-group">
+						            <input class="form-control input-sm" placeholder="Search" type="text">
+						            <span class="input-group-btn">
+						              <button type="submit" class="btn btn-default btn-sm"><i class="fa fa-search"></i></button>
+						            </span>
+						          </div>
+						        </div>
+							</div>
+							<div class="center screen niceScroll" style="top:115px">
+								<div class="box bg-light">
+									<div class="col">
+										<div class="list-group list-group-lg m-b-none r-none">
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a1.jpg" alt="...">
+									                <i class="busy b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">14 May</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Hasin Hayder</span>
+								                	<small class="text-muted clear text-ellipsis">how's everything going on</small>
+								            	</span>
+								            </a>
+											<a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a2.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">12:30pm</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Natai Baba</span>
+								                	<small class="text-muted clear text-ellipsis">What's up, buddy</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a3.jpg" alt="...">
+									                <i class="away b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">Mon</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Gifaree</span>
+								                	<small class="text-muted clear text-ellipsis">Hi!</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a4.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">Wed</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Storyteller</span>
+								                	<small class="text-muted clear text-ellipsis">old man and the sea</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a5.jpg" alt="...">
+									                <i class="off b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">Wed</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Tutul Chowdhury</span>
+								                	<small class="text-muted clear text-ellipsis">Somthing wrong!</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a6.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">13 Mar</small>
+								                	<span class="clear text-ellipsis font-semi-bold">M Asif Rahman</span>
+								                	<small class="text-muted clear text-ellipsis">Lol. Take care buddy!</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a7.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">27 Feb</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Nahid Bin Azhar</span>
+								                	<small class="text-muted clear text-ellipsis">na jemon plugin, module egula ki thakbe na?</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a8.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">20/12/2014</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Kowshar Ahmed</span>
+								                	<small class="text-muted clear text-ellipsis">have you get the confirmation code?</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a9.jpg" alt="...">
+									                <i class="away b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">5/11/2014</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Patrick Nommensen</span>
+								                	<small class="text-muted clear text-ellipsis">So far, very tired and sleeping soon.</small>
+								            	</span>
+								            </a>
+								            
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a1.jpg" alt="...">
+									                <i class="busy b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">14 May</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Hasin Hayder</span>
+								                	<small class="text-muted clear text-ellipsis">how's everything going on</small>
+								            	</span>
+								            </a>
+											<a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a2.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">12:30pm</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Natai Baba</span>
+								                	<small class="text-muted clear text-ellipsis">What's up, buddy</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a3.jpg" alt="...">
+									                <i class="away b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">Mon</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Gifaree</span>
+								                	<small class="text-muted clear text-ellipsis">Hi!</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a4.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">Wed</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Storyteller</span>
+								                	<small class="text-muted clear text-ellipsis">old man and the sea</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a5.jpg" alt="...">
+									                <i class="off b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">Wed</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Tutul Chowdhury</span>
+								                	<small class="text-muted clear text-ellipsis">Somthing wrong!</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a6.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">13 Mar</small>
+								                	<span class="clear text-ellipsis font-semi-bold">M Asif Rahman</span>
+								                	<small class="text-muted clear text-ellipsis">Lol. Take care buddy!</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a7.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">27 Feb</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Nahid Bin Azhar</span>
+								                	<small class="text-muted clear text-ellipsis">na jemon plugin, module egula ki thakbe na?</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a8.jpg" alt="...">
+									                <i class="on b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">20/12/2014</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Kowshar Ahmed</span>
+								                	<small class="text-muted clear text-ellipsis">have you get the confirmation code?</small>
+								            	</span>
+								            </a>
+								            <a herf="" class="list-group-item clearfix">
+												<span class="pull-left thumb-sm avatar m-r">
+									                <img src="imgs/a9.jpg" alt="...">
+									                <i class="away b-white bottom"></i>
+								            	</span>
+								              	<span class="clear">
+								              		<small class="pull-right text-muted">5/11/2014</small>
+								                	<span class="clear text-ellipsis font-semi-bold">Patrick Nommensen</span>
+								                	<small class="text-muted clear text-ellipsis">So far, very tired and sleeping soon.</small>
+								            	</span>
+								            </a>
+								        </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 bg-white h-full p-h-none">
+						<div class="item">
+							<div class="top bg-light dker w-full wrapper b-b">
+								<h6 class="inline p-t-xs m-t-xxs m-b-none">Chat <small class="">with</small> <a class="font-semi-bold" href="">Natai Baba</a></h6>
+								<div class="btn-group pull-right">
+								  <button type="button" class="btn btn-default btn-sm">New Message</button>
+								  
+								  <!--more msg stuff -->
+								  <div class="btn-group pull-right">
+									  <button type="button" class="btn btn-default btn-sm" data-toggle="dropdown">
+									    <i class="icon-settings"></i>
+									  </button>
+									  <ul class="dropdown-menu">
+									    <li><a href="#">Delete Conversation</a></li>
+									    <li><a href="#">Delete Message</a></li>
+									    <li class="divider"></li>
+									    <li><a href="#">Mark as Unread</a></li>
+									    <li><a href="#">Say something special</a></li>
+									    <li class="divider"></li>
+									    <li><a href="#">Love like hell</a></li>
+									    <li><a href="#">Gonna creazy</a></li>
+									    <li><a href="#">Mute all</a></li>
+									  </ul>
+								  </div>
+								  <!--/ more msg stuff -->
+
+
+								</div>
+							</div>
+							
+							<div class="center screen niceScroll" style="top:60px;bottom:100px">
+								<div class="box">
+									<div class="col v-bottom wrapper">
+										
+					        			<div class="media">
+								        	<div class="media-left">
+											    <a href="" class="thumb-sm avatar"><img src="imgs/a2.jpg" alt="..."></a>
+										  	</div>
+										  	<div class="media-body">
+										    	<div class="pos-rlt wrapper b b-light r r-2x">
+								                	<span class="arrow left pull-up"></span>
+								                	<p class="m-b-none">Hi Evan, What's up...</p>
+								              	</div>
+								              	<small class="text-muted"><i class="fa fa-check-circle text-success hide"></i> 3 minutes ago</small>
+										  	</div>
+									    </div>
+									    <div class="media">
+								        	<div class="media-body">
+										    	<div class="pos-rlt wrapper b b-light r r-2x bg-light">
+								                	<span class="arrow right pull-up arrow-light"></span>
+								                	<p class="m-b-none">Alhamdulillah <br>I'm totally fine<br>:)</p>
+								              	</div>
+								              	<small class="text-muted"><i class="fa fa-check-circle text-success hide"></i> 2 minutes ago</small>
+										  	</div>
+										  	<div class="media-right">
+											    <a href="" class="thumb-sm avatar"><img src="imgs/a0.jpg" alt="..."></a>
+										  	</div>
+									    </div>
+					        			<div class="media">
+								        	<div class="media-left">
+											    <a href="" class="thumb-sm avatar"><img src="imgs/a2.jpg" alt="..."></a>
+										  	</div>
+										  	<div class="media-body">
+										    	<div class="pos-rlt wrapper b b-light r r-2x">
+								                	<span class="arrow left pull-up"></span>
+									                <p class="m-b-none">Then <br> what is the plan?</p>
+									            </div>
+									            <small class="text-muted"><i class="fa fa-check-circle text-success hide"></i> 1 minutes ago</small>
+											</div>
+										</div>
+										<div class="media">
+								        	<div class="media-body">
+										    	<div class="pos-rlt wrapper b b-light r r-2x bg-light">
+								                	<span class="arrow right pull-up arrow-light"></span>
+								                	<p class="m-b-none">Alhamdulillah <br>I'm totally fine<br>:)</p>
+								              	</div>
+								              	<small class="text-muted"><i class="fa fa-check-circle text-success hide"></i> 2 minutes ago</small>
+										  	</div>
+										  	<div class="media-right">
+											    <a href="" class="thumb-sm avatar"><img src="imgs/a0.jpg" alt="..."></a>
+										  	</div>
+									    </div>
+									    <div class="media">
+								        	<div class="media-left">
+											    <a href="" class="thumb-sm avatar"><img src="imgs/a2.jpg" alt="..."></a>
+										  	</div>
+										  	<div class="media-body">
+										    	<div class="pos-rlt wrapper b b-light r r-2x">
+								                	<span class="arrow left pull-up"></span>
+									                <p class="m-b-none">Then <br> what is the plan?</p>
+									            </div>
+									            <small class="text-muted"><i class="fa fa-check-circle text-success hide"></i> 1 minutes ago</small>
+											</div>
+										</div>
+						        		
+										
+										
+									</div>
+								</div>
+							</div>
+							
+							<div class="bottom bg-white w-full wrapper b-t b-light b-dk b-2x" style="z-index: 10">
+								<div class="media">
+						        	<div class="media-left">
+									    <a href="" class="thumb-sm avatar"><img src="imgs/a0.jpg" alt="..."></a>
+								  	</div>
+								  	<div class="media-body">
+								    	<div class="form-group m-b-none b b-light b-dk wrapper-xs bg-white niceScroll" style="min-height:60px; max-height:150px; overflow-y: auto !important;">
+											<textarea style="min-height:60px; resize: none;" class="form-control autoglow wrapper-none b-none" name="message" placeholder="Write your message" rows="1"></textarea>
+										</div>
+							        </div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 bg-light lt h-full b clear niceScroll">
+						<div class="p-t">
+					      <div class="panel b-light clearfix">
+					        <div class="panel-body">
+					          <a href="" class="thumb pull-left m-r">
+					            <img src="imgs/a1.jpg" class="img-circle">
+					          </a>
+					          <div class="clear">
+					            <a href="" class="text-info font-semi-bold">Hasin Hayder</a>
+					            <small class="block text-muted">2,415 followers</small>
+					            <a href="" class="btn btn-xs btn-info m-t-xs">Follow</a>
+					          </div>
+					        </div>
+					      </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/headroom.js/dist/headroom.min.js"></script>
+		<script src="bower_components/owl-carousel2/dist/owl.carousel.min.js"></script>
+		<script src="dist/js/bootaide.min.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "name": "photoswipe",
+  "version": "4.0.7",
+  "homepage": "http://photoswipe.com",
+  "authors": [
+    "Dmitry Semenov <diiiimaaaa@gmail.com>"
+  ],
+  "description": "Touch-friendly image gallery for mobile and desktop. Without dependencies.",
+  "main": [
+    "dist/photoswipe.js",
+    "dist/photoswipe.css",
+    "dist/photoswipe-ui-default.js",
+    "dist/default-skin/default-skin.css",
+    "dist/default-skin/default-skin.png",
+    "dist/default-skin/default-skin.svg",
+    "dist/default-skin/preloader.gif"
+  ],
+  "keywords": [
+    "image",
+    "gallery",
+    "lightbox",
+    "swipe",
+    "touch"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "website"
+  ],
+  "_release": "4.0.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.0.7",
+    "commit": "2572dbd4987938e9e71c64eaffd634aaf658082f"
+  },
+  "_source": "git://github.com/dimsemenov/PhotoSwipe.git",
+  "_target": "~4.0.7",
+  "_originalSource": "photoswipe"
+}

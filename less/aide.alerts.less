@@ -1,0 +1,20 @@
+//Alert
+.alert-white {
+  .alert-variant(@brand-white; @brand-white; darken(@brand-white, 65%));
+}
+.alert-light {
+  .alert-variant(@brand-light; @brand-light; darken(@brand-light, 55%));
+}
+.alert_colorClasses(@i:3) when(@i <= length(@array_brand)) {
+    @brand-name: extract(extract(@array_brand, @i),1);
+    @brand-color: e("brand-@{brand-name}");
+      .alert-@{brand-name} {
+        .alert-variant(@@brand-color; @@brand-color; @@brand-color);
+      }
+    .alert_colorClasses((@i + 1));
+}
+.alert_colorClasses();
+
+.alert a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+.shapeClasses(@i:1) when(@i <= length(@array_shapes)) {
+    @shape-name: extract(extract(@array_shapes, @i),1);
+    @shape-radius: e("shape-@{shape-name}");
+      .s-@{shape-name} {
+        .border-radius(@@shape-radius);
+      }
+    .shapeClasses((@i + 1));
+}
+.shapeClasses();
+

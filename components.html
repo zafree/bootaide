@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<title>Components | Bootaide</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="/favicon.ico">
+
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+	    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+	    <link rel="stylesheet" href="bower_components/simple-line-icons/css/simple-line-icons.css" />
+	    <link rel="stylesheet" href="bower_components/fontface-source-sans-pro/css/source-sans-pro.min.css"/>
+	    <link rel="stylesheet" href="bower_components/owl-carousel2/dist/assets/owl.carousel.min.css" />
+	    <link rel="stylesheet" href="bower_components/owl-carousel2/dist/assets/owl.theme.default.min.css" />
+		
+		<!-- Documentation -->
+		<link rel="stylesheet" href="docs/docs.css">
+		
+		<link rel="stylesheet" href="dist/css/bootaide.min.css" />
+		
+		
+		<link rel="stylesheet" href="bower_components/highlightjs/styles/github.css">
+		<script src="bower_components/highlightjs/highlight.pack.js"></script>
+		<script>
+		    hljs.initHighlightingOnLoad();
+		</script>
+		
+	</head>
+	<body id="home" data-spy="scroll" data-offset="200">
+		<!--[if lt IE 10]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<header class="bg-white box-shadow">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="btn btn-link visible-xs pull-right m-r m-t-sm" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+					<a href="." class="navbar-brand m-r-lg"><img src="img/logo.png" class="m-r-sm hide"><span class="h3 font-bold">Bootaide</span></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active hide">
+							<a href=".">Home</a>
+						</li>
+						<li>
+							<a href="start.html">Start</a>
+						</li>
+						<li>
+							<a href="css.html">CSS</a>
+						</li>
+						<li>
+							<a href="typo.html">Typo</a>
+						</li>
+						<li>
+							<a href="components.html">Components</a>
+						</li>
+						<li>
+							<a href="ui-kit.html">UI Kit</a>
+						</li>
+						<li class="dropdown">
+							<a href data-toggle="dropdown">Hello <i class="fa fa-caret-down"></i></a>
+							<!-- dropdown -->
+							<ul class="dropdown-menu w p-t">
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="progress-bar.html">Progress-bar</a>
+								</li>
+								<li>
+									<a href="seperators.html"> <span class="badge bg-success pull-right">NEW</span> <span>Separators</span> </a>
+								</li>
+								<li>
+									<a href="pricing.html">Pricing</a>
+								</li>
+								<li>
+									<a href="says.html">Says</a>
+								</li>
+								<li>
+									<a href="form.html"> <span class="label bg-info pull-right">valid</span> Form </a>
+								</li>
+								<li>
+									<a href="blog.html">Blog</a>
+								</li>
+								<li>
+									<a href="parallax.html">Parallax</a>
+								</li>
+								<li>
+									<a href="chat.html"> <span class="badge bg-light pull-right">NEW</span> Chat</a>
+								</li>
+								<li>
+									<a href="photoswipe.html">PhotoSwipe</a>
+								</li>
+								<li>
+									<a href="video.html">Video</a>
+								</li>
+								<li class="divider"></li>
+								<li>
+									<a href="themeaide.html" target="_blank">Themeaide</a>
+								</li>
+								<li>
+									<a href="personal-bio.html">Personal Bio</a>
+								</li>
+							</ul>
+							<!-- / dropdown -->
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<section class="bg-info">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-8 col-sm-offset-2 p-v-xxl text-center">
+						<h1 class="h1 p-v-xxl">Components <small class="clear">documentation</small></h1>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="p-v-xxl">
+			<div class="container bs-docs-container">
+				<div class="row">
+					<div class="col-md-9">
+						
+						<div class="bs-docs-section">
+							<h1 id="progress-bar" class="page-header b-b b-a">Progress bar</h1>
+							
+							<div id="progress-bar-basic">
+								<h3 class="p-t-xl">Basic Example</h3>
+								<div class="bs-example bg-light lt">
+									<div class="">
+										<div class="m-b-sm">
+									        <span>Progress bar</span>
+							            </div>
+										<div class="progress" data-percent="65%">
+											<span class="progress-bar"></span>
+										</div>
+									</div>
+					
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><div class="m-b-sm">
+  <span>Progress bar</span>
+</div>
+<div class="progress" data-percent="65%">
+  <span class="progress-bar"></span>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="progress-bar-percentage">
+								<h3 class="p-t-xl">With percentage</h3>
+								<div class="bs-example bg-light lt">
+									<div class="">
+										<div class="m-b-sm">
+									        <span class="pull-right">65%</span>
+									        <span>Progress bar</span>
+							            </div>
+										<div class="progress" data-percent="65%">
+											<span class="progress-bar"></span>
+										</div>
+									</div>
+					
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><div class="m-b-sm">
+  <span class="pull-right">65%</span>
+  <span>Progress bar</span>
+</div>
+<div class="progress" data-percent="65%">
+  <span class="progress-bar"></span>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="progress-bar-text-inner">
+								<h3 class="p-t-xl">Inner text</h3>
+								<div class="bs-example bg-light lt">
+									<div class="">
+										<div class="progress" data-percent="85%">
+											<span class="title p-h-sm">Progress bar</span>
+											<span class="progress-bar bg-primary"></span>
+										</div>
+									</div>
+					
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><div class="progress" data-percent="85%">
+  <span class="title p-h-sm">Progress bar</span>
+  <span class="progress-bar bg-primary"></span>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="progress-bar-text-inner-percentage">
+								<h3 class="p-t-xl">Inner text <small>with percentage</small></h3>
+								<div class="bs-example bg-light lt">
+									<div class="">
+										<div class="progress" data-percent="85%">
+											<span class="title p-h-sm">Progress bar <span class="pull-right text-primary">85%</span></span>
+											<span class="progress-bar bg-primary"></span>
+										</div>
+									</div>
+					
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><div class="progress" data-percent="85%">
+  <span class="title p-h-sm">Progress bar <span class="pull-right text-primary">85%</span></span>
+  <span class="progress-bar bg-primary"></span>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="progress-bar-colors">
+								<h3 class="p-t-xl">Colors</h3>
+								<div class="bs-example bg-light lt">
+									<div class="">
+										<div class="m-b-sm">
+									        <span>.bg-white</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-white"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-light</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-light"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-dark</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-dark"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-black</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-black"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-primary</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-primary"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-info</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-info"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-success</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-success"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-warning</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-warning"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.bg-danger</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-danger"></span>
+										</div>
+									</div>
+					
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--change bg-info -->
+<div class="progress" data-percent="85%">
+  <span class="progress-bar bg-info"></span>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="progress-bar-sizes">
+								<h3 class="p-t-xl">Sizes</h3>
+								<div class="bs-example bg-light lt">
+									<div class="">
+										<div class="m-b-sm">
+									        <span>.h-xxs</span>
+							            </div>
+										<div class="progress h-xxs" data-percent="85%">
+											<span class="progress-bar bg-primary"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.h-xs</span>
+							            </div>
+										<div class="progress h-xs" data-percent="85%">
+											<span class="progress-bar bg-info"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.h-sm</span>
+							            </div>
+										<div class="progress h-sm" data-percent="85%">
+											<span class="progress-bar bg-success"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>default</span>
+							            </div>
+										<div class="progress" data-percent="85%">
+											<span class="progress-bar bg-dark"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.h-lg</span>
+							            </div>
+										<div class="progress h-lg" data-percent="85%">
+											<span class="progress-bar bg-warning"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.h-xl</span>
+							            </div>
+										<div class="progress h-xl" data-percent="85%">
+											<span class="progress-bar bg-danger"></span>
+										</div>
+										<div class="m-b-sm">
+									        <span>.h-xxl</span>
+							            </div>
+										<div class="progress h-xxl" data-percent="85%">
+											<span class="progress-bar bg-black"></span>
+										</div>
+									</div>
+					
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--change h-xxs -->
+<div class="progress h-xxs" data-percent="85%">
+  <span class="progress-bar bg-primary"></span>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="bs-docs-section">
+							<h1 id="iswitches" class="page-header b-b b-a">iSwitches</h1>
+							
+							<div id="iswitches-basic">
+								<h3 class="p-t-xl">Basic example</h3>
+								<div class="bs-example bg-light lt">
+									<label class="i-switch">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><label class="i-switch">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="iswitches-colors">
+								<h3 class="p-t-xl">Colors</h3>
+								<div class="bs-example bg-light lt">
+									<label class="i-switch bg-white m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+									<label class="i-switch bg-light m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+									<label class="i-switch bg-dark m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch bg-black m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch bg-primary m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch bg-info m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch bg-success m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch bg-warning m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch bg-danger">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--change bg-brand -->
+<label class="i-switch bg-white">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+</code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="iswitches-sizes">
+								<h3 class="p-t-xl">Sizes</h3>
+								<div class="bs-example bg-light lt">
+									<label class="i-switch i-switch-xs m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch i-switch-sm m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch i-switch-md m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch i-switch-lg m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch i-switch-xl m-r">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+						            <label class="i-switch i-switch-xxl">
+						              <input type="checkbox" checked>
+						              <i></i>
+						            </label>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><label class="i-switch i-switch-xs">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+
+<label class="i-switch i-switch-sm">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+
+<label class="i-switch">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+
+<label class="i-switch i-switch-md">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+
+<label class="i-switch i-switch-lg">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+
+<label class="i-switch i-switch-xl">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label>
+
+<label class="i-switch i-switch-xxl">
+  &lt;input type="checkbox" checked>
+  <i></i>
+</label></code>
+</pre>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="bs-docs-section">
+							<h1 id="ichecks" class="page-header b-b b-a">iCheck and radios</h1>
+							
+							<div id="ichecks-basic">
+								<h3 class="p-t-xl">Basic</h3>
+								<div class="bs-example bg-light lt">
+									<div class="checkbox">
+										<label class="i-checks">
+						                  <input type="checkbox" value="" checked>
+						                  <i></i>
+						                  checkbox
+						                </label>
+					                </div>
+					                <div class="radio">
+										<label class="i-checks">
+						                  <input type="radio" name="a" value="option1" checked>
+						                  <i></i>
+						                  radio option 1
+						                </label>
+						            </div>
+						            <div class="radio">
+						                <label class="i-checks">
+						                  <input type="radio" name="a" value="option2">
+						                  <i></i>
+						                  radio option 2
+						                </label>
+					                </div>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><div class="checkbox">
+  <label class="i-checks">
+    &lt;input type="checkbox" value="" checked>
+    <i></i>
+    checkbox
+  </label>
+</div>
+
+<div class="radio">
+  <label class="i-checks">
+    &lt;input type="radio" name="a" value="option1" checked>
+    <i></i>
+    radio option 1
+  </label>
+</div>
+<div class="radio">
+  <label class="i-checks">
+    &lt;input type="radio" name="a" value="option2" checked>
+    <i></i>
+    radio option 2
+  </label>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="ichecks-colors">
+								<h3 class="p-t-xl">Colors</h3>
+								<div class="bs-example bg-light lt">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="checkbox">
+											  <label class="i-checks checks-light m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+											  <label class="i-checks checks-dark m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks checks-black m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks checks-primary m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks checks-info m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks checks-success m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks checks-warning m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks checks-danger m-r">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                checkbox
+								              </label>
+								           </div>
+										</div>
+										<div class="col-sm-6">
+											<div class="radio">
+											  <label class="i-checks checks-light m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+											  <label class="i-checks checks-dark m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks checks-black m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks checks-primary m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks checks-info m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks checks-success m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks checks-warning m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks checks-danger m-r">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                radio
+								              </label>
+								           </div>
+										</div>
+									</div>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--change checks-brand -->
+<div class="checkbox">
+  <label class="i-checks checks-light">
+    &lt;input type="checkbox" value="" checked>
+    <i></i>
+    checkbox
+  </label>
+</div>
+
+<div class="radio">
+  <label class="i-checks checks-light">
+    &lt;input type="radio" value="" checked>
+    <i></i>
+    radio
+  </label>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="ichecks-sizes">
+								<h3 class="p-t-xl">Sizes</h3>
+								<div class="bs-example bg-light lt">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="checkbox m-b">
+								              <label class="i-checks i-checks-xs">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                i-check-xs
+								              </label>
+								            </div>
+							            	<div class="checkbox m-b">
+								              <label class="i-checks i-checks-sm">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                i-check-sm
+								              </label>
+								            </div>
+								            <div class="checkbox m-b">
+								              <label class="i-checks">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                <em class="text-info">default</em>
+								              </label>
+								            </div>
+								            <div class="checkbox m-b">
+								              <label class="i-checks i-checks-md">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                i-check-md
+								              </label>
+								            </div>
+								            <div class="checkbox m-b">
+								              <label class="i-checks i-checks-lg">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                i-check-lg
+								              </label>
+								            </div>
+								            <div class="checkbox m-b">
+								              <label class="i-checks i-checks-xl">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                i-check-xl
+								              </label>
+								            </div>
+								            <div class="checkbox">
+								              <label class="i-checks i-checks-xxl">
+								                <input type="checkbox" value="" checked>
+								                <i></i>
+								                i-check-xxl
+								              </label>
+								            </div>
+										</div>
+										<div class="col-sm-6">
+											<div class="radio m-b">
+								              <label class="i-checks i-checks-xs">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                i-check-xs
+								              </label>
+								            </div>
+							            	<div class="radio m-b">
+								              <label class="i-checks i-checks-sm">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                i-check-sm
+								              </label>
+								            </div>
+								            <div class="radio m-b">
+								              <label class="i-checks">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                <em class="text-info">default</em>
+								              </label>
+								            </div>
+								            <div class="radio m-b">
+								              <label class="i-checks i-checks-md">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                i-check-md
+								              </label>
+								            </div>
+								            <div class="radio m-b">
+								              <label class="i-checks i-checks-lg">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                i-check-lg
+								              </label>
+								            </div>
+								            <div class="radio m-b">
+								              <label class="i-checks i-checks-xl">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                i-check-xl
+								              </label>
+								            </div>
+								            <div class="radio">
+								              <label class="i-checks i-checks-xxl">
+								                <input type="radio" value="" checked>
+								                <i></i>
+								                i-check-xxl
+								              </label>
+								            </div>
+										</div>
+									</div>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--change i-checks-xs -->
+<div class="checkbox">
+  <label class="i-checks i-checks-xs">
+    &lt;input type="checkbox" value="" checked>
+    <i></i>
+    i-check-xs
+  </label>
+</div>
+
+<div class="radio">
+  <label class="i-checks i-checks-xs">
+    &lt;input type="radio" value="" checked>
+    <i></i>
+    i-check-xs
+  </label>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="ichecks-diabled">
+								<h3 class="p-t-xl">Diabled</h3>
+								<div class="bs-example bg-light lt">
+									<div class="checkbox disabled">
+						              <label class="i-checks">
+						                <input type="checkbox" value="" checked disabled>
+						                <i></i>
+						                checkbox checked and disabled
+						              </label>
+						            </div>
+						            <div class="checkbox disabled">
+						              <label class="i-checks">
+						                <input type="checkbox" value="" disabled>
+						                <i></i>
+						                checkbox disabled
+						              </label>
+						            </div>
+						            <div class="radio disabled">
+						              <label class="i-checks">
+						                <input type="radio" value="" checked disabled>
+						                <i></i>
+						                radio checked and disabled
+						              </label>
+						            </div>
+						            <div class="radio disabled">
+						              <label class="i-checks">
+						                <input type="radio" value="" disabled>
+						                <i></i>
+						                radio disabled
+						              </label>
+						            </div>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><div class="checkbox disabled">
+  <label class="i-checks">
+    &lt;input type="checkbox" value="" checked disabled>
+    <i></i>
+    checkbox checked and disabled
+  </label>
+</div>
+
+<div class="checkbox disabled">
+  <label class="i-checks">
+    &lt;input type="checkbox" value="" disabled>
+    <i></i>
+    checkbox disabled
+  </label>
+</div>
+
+<div class="radio disabled">
+  <label class="i-checks">
+    &lt;input type="radio" value="" checked disabled>
+    <i></i>
+    radio checked and disabled
+  </label>
+</div>
+
+<div class="radio disabled">
+  <label class="i-checks">
+    &lt;input type="radio" value="" disabled>
+    <i></i>
+    radio disabled
+  </label>
+</div></code>
+</pre>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="bs-docs-section">
+							<h1 id="separators" class="page-header b-b b-a">SVG Separators</h1>
+							
+							<div id="separators-draw-svg">
+								<h3 class="p-t-xl">Draw your svg</h3>
+								<p>Draw your <code>svg</code> using Illustrator. Export SVG for the web. Learn more from <a class="text-danger" href="http://www.adobe.com/inspire/2013/09/exporting-svg-illustrator.html" target="_blank">here</a></p>
+								<div class="bs-example bg-light lt">
+									<div class="s-xs">
+										<svg class="decor" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+											<path fill="#3A3F51" d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+										</svg>
+									</div>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--svg path -->
+<svg preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#3A3F51" d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+</svg></code>
+</pre>
+								</div>
+								<p>You know, it's really embarrassing to define <code>fill="#hex"</code> every time in <code>svg</code> code.</p>
+								<p class="lead">
+									This time we use <span class="text-success"> svg.separator.js </span>
+								</p>
+							</div>
+							
+							<div id="separators-set-svg">
+								<h3 class="p-t-xl">Set SVG</h3>
+								<p>Add <code>class="decor"</code> in &lt;svg&gt; tag </p>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--set svg -->
+<svg class="decor" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+</svg></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="separators-set-html">
+								<h3 class="p-t-xl">Set HTML</h3>
+								<div class="highlight">
+<pre>
+<code lang="html"><section class="separator">
+  <div class="decor-svg">
+  	
+    <!--your svg code here -->
+    ...
+    
+  </div>
+</section></code>
+</pre>
+								</div>
+							</div>
+							
+							<div id="separators-use">
+								<h3 class="p-t-xl">Use action</h3>
+								<div class="bs-example bg-light lt">
+									<section class="p-v-xl bg-light">
+										<h1 class="text-center">section 1</h1>
+									</section>
+									<section class="separator">
+										<div class="decor-svg">
+											<svg class="decor" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+											</svg>
+										</div>
+									</section>
+									<section class="p-v-xl bg-dark">
+										<h1 class="text-center">section 2</h1>
+									</section>
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"><!--section -->
+<section class="p-v-xl bg-light">
+  <h1 class="text-center">section 1</h1>
+</section>
+<!--/section -->
+
+<section class="separator">
+  <div class="decor-svg">
+	<svg class="decor" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	  <path d="M0 100 L100 0 L100 100" stroke-width="0"></path>
+	</svg>
+  </div>
+</section>
+
+<!--section -->
+<section class="p-v-xl bg-dark">
+  <h1 class="text-center">section 2</h1>
+</section>
+<!--/ section --></code>
+</pre>
+								</div>
+								<ul>
+									<li>previous and next<code>section</code> are must</li>
+							        <li>Must add <code>bg-color</code> with sections</li>
+							        <li>Now its automatically set your <code>fill</code> and <code>backgrund</code> color.</li>
+							    </ul>
+							</div>
+							
+							<div id="separators-more-example">
+								<h3 class="p-t-xl">More separators</h3>
+								<a class="btn btn-lg btn-primary" href="seperators.html" target="_blank">Some cool SVG separators</a>
+							</div>
+							
+						</div>
+								
+						<!--
+						<div class="bs-docs-section">
+							<h1 id="test" class="page-header b-b b-a">test</h1>
+							
+							<div id="test-sub">
+								<h3 class="p-t-xl">Test_Name</h3>
+								<div class="bs-example bg-light lt">
+									
+								</div>
+								<div class="highlight">
+<pre>
+<code lang="html"></code>
+</pre>
+								</div>
+							</div>
+							
+						</div>
+						-->
+						
+					</div>
+					
+					<div class="col-md-3">
+						<nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm">
+							<ul class="nav bs-docs-sidenav">
+								<li>
+									<a class="scrollto" href="#progress-bar">Progress bar</a>
+									<ul class="nav">
+								    	<li><a class="scrollto" href="#progress-bar-basic">Basic</a></li>
+								    	<li><a class="scrollto" href="#progress-bar-percentage">With percentage</a></li>
+								    	<li><a class="scrollto" href="#progress-bar-text-inner">Inner text</a></li>
+								    	<li><a class="scrollto" href="#progress-bar-text-inner-percentage">Inner text <small>with percentage</small></a></li>
+								    	<li><a class="scrollto" href="#progress-bar-colors">Colors</a></li>
+								    	<li><a class="scrollto" href="#progress-bar-sizes">Sizes</a></li>
+								  	</ul>
+								</li>
+								<li>
+									<a class="scrollto" href="#iswitches">iSwitches</a>
+									<ul class="nav">
+								    	<li><a class="scrollto" href="#iswitches-basic">Basic</a></li>
+								    	<li><a class="scrollto" href="#iswitches-colors">Colors</a></li>
+								    	<li><a class="scrollto" href="#iswitches-sizes">Sizes</a></li>
+								  	</ul>
+								</li>
+								<li>
+									<a class="scrollto" href="#ichecks">iChecks and radios</a>
+									<ul class="nav">
+								    	<li><a class="scrollto" href="#ichecks-basic">Basic</a></li>
+								    	<li><a class="scrollto" href="#ichecks-colors">Colors</a></li>
+								    	<li><a class="scrollto" href="#ichecks-sizes">Sizes</a></li>
+								    	<li><a class="scrollto" href="#ichecks-diabled">Diabled</a></li>
+								  	</ul>
+								</li>
+								<li>
+									<a class="scrollto" href="#separators">SVG separators</a>
+									<ul class="nav">
+								    	<li><a class="scrollto" href="#separators-draw-svg">Draw your svg</a></li>
+								    	<li><a class="scrollto" href="#separators-set-svg">Set SVG</a></li>
+								    	<li><a class="scrollto" href="#separators-set-html">Set HTML</a></li>
+								    	<li><a class="scrollto" href="#separators-use">Use action</a></li>
+								    	<li><a class="scrollto" href="#separators-more-example">More separators</a></li>
+								  	</ul>
+								</li>
+							</ul>
+							<a class="scrollto" href="#home">Back to top</a>            
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer class="bg-dark">
+			<div class="container">
+				<div class="row p-v m-t-md text-center">
+					
+					<p class="m-b-none">
+						Build with <i class="fa fa-heart-o m-h-2x"></i> by <a href="https://www.facebook.com/zafree" target="_blank"> Zafree</a>
+					</p>
+					<p>
+						Code licensed under <a href="https://github.com/zafree/bootaide/blob/master/LICENSE">MIT</a>, 
+						documentation under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.
+					</p>
+					<p>
+						2015 &copy; Bootaide
+					</p>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script>
+			$(document).ready(function() {
+		      $('pre code').each(function(){
+		        var text=$(this).html().replace(/</g,'&lt;');
+		        //var text=text.replace(/>/g,'&gt;');
+		        $(this).html(text);
+		      });
+		    });
+		</script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="docs/docs.js"></script>
+		<script src="bower_components/bootstrapvalidator/dist/js/bootstrapValidator.min.js"></script>
+		<script src="bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script>
+		<script src="bower_components/headroom.js/dist/headroom.min.js"></script>
+		<script src="bower_components/owl-carousel2/dist/owl.carousel.min.js"></script>
+		<script src="dist/js/bootaide.min.js"></script>
+		
+
+	</body>
+</html>

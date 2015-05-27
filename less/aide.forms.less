@@ -1,0 +1,40 @@
+//
+// Forms
+// --------------------------------------------------
+
+textarea.form-control {
+    height: auto;
+    max-width: 100%;
+    min-width: 100%;
+    vertical-align: top;
+}
+
+.form-control {
+  border-color: @brand-light;
+  border-radius: @border-radius-base;
+}
+
+.form-control,
+.form-control:focus {
+  .box-shadow(none);
+}
+.form-control:focus {
+  border-color: @brand-info;
+}
+
+.form-control-feedback {
+  line-height: 34px !important;
+}
+
+
+// Feedback states
+.has-success {
+  .form-control-validation(@brand-success; @brand-success; @brand-white);
+}
+.has-warning {
+  .form-control-validation(@brand-warning; @brand-warning; @brand-white);
+}
+.has-error {
+  .form-control-validation(@brand-danger; @brand-danger; @brand-danger);
+}
+
