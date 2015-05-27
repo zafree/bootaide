@@ -1,6 +1,4 @@
-﻿## Live Demo
-
-<http://zafree.github.io/bootaide/>
+﻿[## Live Demo](https://github.com/zafree/bootaide/blob/master/LICENSE)
 
 
 
