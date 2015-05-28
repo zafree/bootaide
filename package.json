@@ -1,7 +1,7 @@
 {
   "name": "bootaide",
   "version": "0.0.0",
-  "description": "Loving Web application user interface.",
+  "description": "Panic free less framework and loving bootstrap based web ui kits package.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
