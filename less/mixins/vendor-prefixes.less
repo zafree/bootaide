@@ -14,6 +14,7 @@
 // - Transformations
 // - Transitions
 // - User Select
+// - Border Radius
 
 
 // Animations
@@ -233,4 +234,11 @@
      -moz-user-select: @select;
       -ms-user-select: @select; // IE10+
           user-select: @select;
+}
+
+// - Border Radius
+.border-radius (@arguments) {
+    -webkit-border-radius: @arguments;
+    -moz-border-radius: @arguments;
+    border-radius: @arguments;
 }

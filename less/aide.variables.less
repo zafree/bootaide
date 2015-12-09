@@ -10,7 +10,7 @@
 @brand-warning:           #fad733;
 @brand-danger:            #f05050;
 
-@array_brand:             white, light, dark, black, 
+@array_brand:             white, light, dark, black,
                           primary, info, success, warning, danger;
 
 
@@ -26,7 +26,7 @@
 @font-family-base:        @font-family-sans-serif;
 
 @font-size-base:          14px;
-@font-size-lg:            ceil((@font-size-base * 1.25));  // ~18px
+@font-size-lg:            ceil((@font-size-base * 1.14)); // ~16px
 @font-size-sm:            ceil((@font-size-base * 0.85));  // ~12px
 
 @font-size-h1:            floor((@font-size-base * 2.6));  // ~36px
@@ -55,11 +55,11 @@
 @table-border-color:      lighten(@border-color, 4%);
 @table-striped-color:     lighten(@brand-light, 4.5%);
 
-// aide > wrapper, padding, margin 
+// aide > wrapper, padding, margin
 @case-size-xxs:           3px;
 @case-size-xs:            5px;
 @case-size-sm:            10px;
-@case-size-base:          15px; //base 
+@case-size-base:          15px; //base
 @case-size-md:            20px;
 @case-size-lg:            25px;
 @case-size-xl:            30px;
@@ -125,8 +125,6 @@
 @slash: e('/');
 @ds: 3px; //default shape
 
-@shape-default:           @ds;
-
 @shape-square:            @ds;
 @shape-square-2:          12%;
 @shape-square-3:          22%;
@@ -152,11 +150,147 @@
 @shape-slope-3:           40% 40% 50% 50% @slash 70% 70% 30% 30%;
 @shape-slope-4:           40% 70% 70% 40% @slash 50% 45% 45% 50%;
 
+@shape-screen:            50% @slash 20%;
+@shape-screen-2:          20% @slash 50%;
+@shape-screen-3:          60% @slash 40%;
+@shape-screen-4:          40% @slash 60%;
+
+@shape-egg:               50% 50% 50% 50% @slash 60% 60% 40% 40%;
+@shape-egg-2:             70% 40% 40% 70% @slash 55% 50% 50% 55%;
+@shape-egg-3:             40% 70% 70% 40% @slash 55% 55% 55% 55%;
+@shape-egg-4:             50% 50% 50% 50% @slash 40% 40% 60% 60%;
+
+@shape-leaf:              50% @ds;
+@shape-leaf-2:            @ds 50%;
+@shape-leaf-3:            50% 20%;
+@shape-leaf-4:            20% 50%;
+
+@shape-lealo:             @ds @ds @ds 50%;
+@shape-lealo-2:           @ds @ds 50% @ds;
+@shape-lealo-3:           50% @ds @ds @ds;
+@shape-lealo-4:           @ds 50% @ds @ds;
+
+@shape-tray:              50% 50% 20% 20% @slash 50%;
+@shape-tray-2:            50% @slash 20% 50% 50% 20%;
+@shape-tray-3:            20% 20% 50% 50% @slash 50%;
+@shape-tray-4:            50% @slash 50% 20% 20% 50%;
+
+@shape-lope:              10% 20% 10% 20% @slash 40%;
+@shape-lope-2:            20% 10% 20% 10% @slash 40%;
+@shape-lope-3:            40% @slash 10% 20% 10% 20%;
+@shape-lope-4:            40% @slash 20% 10% 20% 10%;
+
+@shape-rugby:             70% 40%;
+@shape-rugby-2:           40% 70%;
+@shape-rugby-3:           60% 45%;
+@shape-rugby-4:           45% 60%;
+
+@shape-lady:              100% 60% @slash 50% 10%;
+@shape-lady-2:            60% 100% @slash 10% 50%;
+@shape-lady-3:            50% 10% @slash 100% 60%;
+@shape-lady-4:            10% 50% @slash 60% 100%;
+
+@shape-aleto:             50% 30% @ds 50%;
+@shape-aleto-2:           50% 50% 30% @ds;
+@shape-aleto-3:           @ds 50% 50% 30%;
+@shape-aleto-4:           30% @ds 50% 50%;
+
+@shape-toope:             40% 40% 10% 10% @slash 70% 70% 30% 30%;
+@shape-toope-2:           30% 70% 70% 30% @slash 10% 40% 40% 10%;
+@shape-toope-3:           10% 10% 40% 40% @slash 30% 30% 70% 70%;
+@shape-toope-4:           70% 30% 30% 70% @slash 40% 10% 10% 40%;
+
+@shape-flag:              100% @ds @slash 20% @ds;
+@shape-flag-2:            @ds 100% @slash @ds 20%;
+@shape-flag-3:            @ds 20% @slash @ds 100%;
+@shape-flag-4:            20% @ds @slash 100% @ds;
+
+@shape-kula:              30% 70% 30% 30% @slash 50%;
+@shape-kula-2:            30% 30% 70% 30% @slash 50%;
+@shape-kula-3:            30% 30% 30% 70% @slash 50%;
+@shape-kula-4:            70% 30% 30% 30% @slash 50%;
+
+@shape-bird:              60% 50% @slash 60% 20%;
+@shape-bird-2:            50% 60% @slash 20% 60%;
+@shape-bird-3:            60% 20% @slash 60% 50%;
+@shape-bird-4:            20% 60% @slash 50% 60%;
+
+@shape-hello:             75% 30% 70% 20% @slash 30% 70% 30% 5%;
+@shape-hello-2:           20% 75% 30% 70% @slash 5% 30% 70% 30%;
+@shape-hello-3:           70% 20% 75% 30% @slash 30% 5% 30% 70%;
+@shape-hello-4:           30% 70% 20% 75% @slash 70% 30% 5% 30%;
+
+@shape-curv:              80% 30% 70% 30% @slash 30% 70% 30% 80%;
+@shape-curv-2:            20% 40% 20% 40% @slash 40% 20% 40% 20%;
+@shape-curv-3:            30% 80% 30% 70% @slash 80% 30% 70% 30%;
+@shape-curv-4:            40% 20% 40% 20% @slash 20% 40% 20% 40%;
+
+@shape-rag:               50% 50% 100% @ds @slash 20% 20% 20% @ds;
+@shape-rag-2:             50% 50% @ds 100% @slash 20% 20% @ds 20%;
+@shape-rag-3:             @ds 100% 50% 50% @slash @ds 20% 20% 20%;
+@shape-rag-4:             100% @ds 50% 50% @slash 20% @ds 20% 20%;
+
+@shape-glap:              50% @slash 70% 30% 30% 30%;
+@shape-glap-2:            50% @slash 30% 70% 30% 30%;
+@shape-glap-3:            50% @slash 30% 30% 70% 30%;
+@shape-glap-4:            50% @slash 30% 30% 30% 70%;
+
+@shape-holo:              60% 50% @slash 50% 30%;
+@shape-holo-2:            50% 60% @slash 30% 50%;
+@shape-holo-3:            50% 30% @slash 60% 50%;
+@shape-holo-4:            30% 50% @slash 50% 60%;
+
+@shape-kullo:             30% 70% 30% 5% @slash 75% 30% 70% 20%;
+@shape-kullo-2:           5% 30% 70% 30% @slash 20% 75% 30% 70%;
+@shape-kullo-3:           30% 5% 30% 70% @slash 70% 20% 75% 30%;
+@shape-kullo-4:           70% 30% 5% 30% @slash 30% 70% 20% 75%;
+
+@shape-bucket:            @ds @ds 20% 20% @slash @ds @ds 100% 100%;
+@shape-bucket-2:          100% @ds @ds 100% @slash 20% @ds @ds 20%;
+@shape-bucket-3:          20% 20% @ds @ds @slash 100% 100% @ds @ds;
+@shape-bucket-4:          @ds 100% 100% @ds @slash @ds 20% 20% @ds;
+
+@shape-pick :             30% 70% 50% 50% @slash 50%;
+@shape-pick-2:            50% 50% 70% 30% @slash 50%;
+@shape-pick-3:            50% 50% 30% 70% @slash 50%;
+@shape-pick-4:            70% 30% 50% 50% @slash 50%;
+
+@shape-bomb:              50% @slash 70% 50% 50% 30%;
+@shape-bomb-2:            50% @slash 50% 70% 30% 50%;
+@shape-bomb-3:            50% @slash 50% 30% 70% 50%;
+@shape-bomb-4:            50% @slash 30% 50% 50% 70%;
 
 
-@array_shapes:            default, 
-                          square, square-2, square-3, square-4,
+@array_shapes:            square, square-2, square-3, square-4,
                           round, round-2, round-3, round-4,
                           drop, drop-2, drop-3, drop-4,
                           uoda, uoda-2, uoda-3, uoda-4,
-                          slope, slope-2, slope-3, slope-4;
+                          slope, slope-2, slope-3, slope-4,
+
+                          screen, screen-2, screen-3, screen-4,
+                          egg, egg-2, egg-3, egg-4,
+                          leaf, leaf-2, leaf-3, leaf-4,
+                          lealo, lealo-2, lealo-3, lealo-4,
+                          tray, tray-2, tray-3, tray-4,
+
+                          lope, lope-2, lope-3, lope-4,
+                          rugby, rugby-2, rugby-3, rugby-4,
+                          lady, lady-2, lady-3, lady-4,
+                          aleto, aleto-2, aleto-3, aleto-4,
+                          toope, toope-2, toope-3, toope-4,
+
+                          flag, flag-2, flag-3, flag-4,
+                          kula, kula-2, kula-3, kula-4,
+                          bird, bird-2, bird-3, bird-4,
+                          hello, hello-2, hello-3, hello-4,
+                          curv, curv-2, curv-3, curv-4,
+
+                          rag, rag-2, rag-3, rag-4,
+                          glap, glap-2, glap-3, glap-4,
+                          holo, holo-2, holo-3, holo-4,
+                          kullo, kullo-2, kullo-3, kullo-4,
+                          bucket, bucket-2, bucket-3, bucket-4,
+
+                          pick, pick-2, pick-3, pick-4,
+
+                          bomb, bomb-2, bomb-3, bomb-4;

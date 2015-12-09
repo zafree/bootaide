@@ -361,7 +361,7 @@ label {
   font-size: 2em;
 }
 .text-lg {
-  font-size: 18px;
+  font-size: 16px;
 }
 .text-base {
   font-size: 14px;
@@ -1566,6 +1566,19 @@ textarea.form-control {
 .s-xxl {
   width: 360px;
   height: 360px;
+}
+.s-1x,
+.s-2x,
+.s-3x,
+.s-xxs,
+.s-xs,
+.s-sm,
+.s,
+.s-md,
+.s-lg,
+.s-xl,
+.s-xxl {
+  display: inline-block;
 }
 .w-1x {
   width: 10px;
@@ -3857,11 +3870,6 @@ a.text-danger {
 .img-danger.img-bg:after {
   background-color: #f05050;
 }
-.s-default {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
 .s-square {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -3961,6 +3969,446 @@ a.text-danger {
   -webkit-border-radius: 40% 70% 70% 40% / 50% 45% 45% 50%;
   -moz-border-radius: 40% 70% 70% 40% / 50% 45% 45% 50%;
   border-radius: 40% 70% 70% 40% / 50% 45% 45% 50%;
+}
+.s-screen {
+  -webkit-border-radius: 50% / 20%;
+  -moz-border-radius: 50% / 20%;
+  border-radius: 50% / 20%;
+}
+.s-screen-2 {
+  -webkit-border-radius: 20% / 50%;
+  -moz-border-radius: 20% / 50%;
+  border-radius: 20% / 50%;
+}
+.s-screen-3 {
+  -webkit-border-radius: 60% / 40%;
+  -moz-border-radius: 60% / 40%;
+  border-radius: 60% / 40%;
+}
+.s-screen-4 {
+  -webkit-border-radius: 40% / 60%;
+  -moz-border-radius: 40% / 60%;
+  border-radius: 40% / 60%;
+}
+.s-egg {
+  -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.s-egg-2 {
+  -webkit-border-radius: 70% 40% 40% 70% / 55% 50% 50% 55%;
+  -moz-border-radius: 70% 40% 40% 70% / 55% 50% 50% 55%;
+  border-radius: 70% 40% 40% 70% / 55% 50% 50% 55%;
+}
+.s-egg-3 {
+  -webkit-border-radius: 40% 70% 70% 40% / 55% 55% 55% 55%;
+  -moz-border-radius: 40% 70% 70% 40% / 55% 55% 55% 55%;
+  border-radius: 40% 70% 70% 40% / 55% 55% 55% 55%;
+}
+.s-egg-4 {
+  -webkit-border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  -moz-border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+}
+.s-leaf {
+  -webkit-border-radius: 50% 3px;
+  -moz-border-radius: 50% 3px;
+  border-radius: 50% 3px;
+}
+.s-leaf-2 {
+  -webkit-border-radius: 3px 50%;
+  -moz-border-radius: 3px 50%;
+  border-radius: 3px 50%;
+}
+.s-leaf-3 {
+  -webkit-border-radius: 50% 20%;
+  -moz-border-radius: 50% 20%;
+  border-radius: 50% 20%;
+}
+.s-leaf-4 {
+  -webkit-border-radius: 20% 50%;
+  -moz-border-radius: 20% 50%;
+  border-radius: 20% 50%;
+}
+.s-lealo {
+  -webkit-border-radius: 3px 3px 3px 50%;
+  -moz-border-radius: 3px 3px 3px 50%;
+  border-radius: 3px 3px 3px 50%;
+}
+.s-lealo-2 {
+  -webkit-border-radius: 3px 3px 50% 3px;
+  -moz-border-radius: 3px 3px 50% 3px;
+  border-radius: 3px 3px 50% 3px;
+}
+.s-lealo-3 {
+  -webkit-border-radius: 50% 3px 3px 3px;
+  -moz-border-radius: 50% 3px 3px 3px;
+  border-radius: 50% 3px 3px 3px;
+}
+.s-lealo-4 {
+  -webkit-border-radius: 3px 50% 3px 3px;
+  -moz-border-radius: 3px 50% 3px 3px;
+  border-radius: 3px 50% 3px 3px;
+}
+.s-tray {
+  -webkit-border-radius: 50% 50% 20% 20% / 50%;
+  -moz-border-radius: 50% 50% 20% 20% / 50%;
+  border-radius: 50% 50% 20% 20% / 50%;
+}
+.s-tray-2 {
+  -webkit-border-radius: 50% / 20% 50% 50% 20%;
+  -moz-border-radius: 50% / 20% 50% 50% 20%;
+  border-radius: 50% / 20% 50% 50% 20%;
+}
+.s-tray-3 {
+  -webkit-border-radius: 20% 20% 50% 50% / 50%;
+  -moz-border-radius: 20% 20% 50% 50% / 50%;
+  border-radius: 20% 20% 50% 50% / 50%;
+}
+.s-tray-4 {
+  -webkit-border-radius: 50% / 50% 20% 20% 50%;
+  -moz-border-radius: 50% / 50% 20% 20% 50%;
+  border-radius: 50% / 50% 20% 20% 50%;
+}
+.s-lope {
+  -webkit-border-radius: 10% 20% 10% 20% / 40%;
+  -moz-border-radius: 10% 20% 10% 20% / 40%;
+  border-radius: 10% 20% 10% 20% / 40%;
+}
+.s-lope-2 {
+  -webkit-border-radius: 20% 10% 20% 10% / 40%;
+  -moz-border-radius: 20% 10% 20% 10% / 40%;
+  border-radius: 20% 10% 20% 10% / 40%;
+}
+.s-lope-3 {
+  -webkit-border-radius: 40% / 10% 20% 10% 20%;
+  -moz-border-radius: 40% / 10% 20% 10% 20%;
+  border-radius: 40% / 10% 20% 10% 20%;
+}
+.s-lope-4 {
+  -webkit-border-radius: 40% / 20% 10% 20% 10%;
+  -moz-border-radius: 40% / 20% 10% 20% 10%;
+  border-radius: 40% / 20% 10% 20% 10%;
+}
+.s-rugby {
+  -webkit-border-radius: 70% 40%;
+  -moz-border-radius: 70% 40%;
+  border-radius: 70% 40%;
+}
+.s-rugby-2 {
+  -webkit-border-radius: 40% 70%;
+  -moz-border-radius: 40% 70%;
+  border-radius: 40% 70%;
+}
+.s-rugby-3 {
+  -webkit-border-radius: 60% 45%;
+  -moz-border-radius: 60% 45%;
+  border-radius: 60% 45%;
+}
+.s-rugby-4 {
+  -webkit-border-radius: 45% 60%;
+  -moz-border-radius: 45% 60%;
+  border-radius: 45% 60%;
+}
+.s-lady {
+  -webkit-border-radius: 100% 60% / 50% 10%;
+  -moz-border-radius: 100% 60% / 50% 10%;
+  border-radius: 100% 60% / 50% 10%;
+}
+.s-lady-2 {
+  -webkit-border-radius: 60% 100% / 10% 50%;
+  -moz-border-radius: 60% 100% / 10% 50%;
+  border-radius: 60% 100% / 10% 50%;
+}
+.s-lady-3 {
+  -webkit-border-radius: 50% 10% / 100% 60%;
+  -moz-border-radius: 50% 10% / 100% 60%;
+  border-radius: 50% 10% / 100% 60%;
+}
+.s-lady-4 {
+  -webkit-border-radius: 10% 50% / 60% 100%;
+  -moz-border-radius: 10% 50% / 60% 100%;
+  border-radius: 10% 50% / 60% 100%;
+}
+.s-aleto {
+  -webkit-border-radius: 50% 30% 3px 50%;
+  -moz-border-radius: 50% 30% 3px 50%;
+  border-radius: 50% 30% 3px 50%;
+}
+.s-aleto-2 {
+  -webkit-border-radius: 50% 50% 30% 3px;
+  -moz-border-radius: 50% 50% 30% 3px;
+  border-radius: 50% 50% 30% 3px;
+}
+.s-aleto-3 {
+  -webkit-border-radius: 3px 50% 50% 30%;
+  -moz-border-radius: 3px 50% 50% 30%;
+  border-radius: 3px 50% 50% 30%;
+}
+.s-aleto-4 {
+  -webkit-border-radius: 30% 3px 50% 50%;
+  -moz-border-radius: 30% 3px 50% 50%;
+  border-radius: 30% 3px 50% 50%;
+}
+.s-toope {
+  -webkit-border-radius: 40% 40% 10% 10% / 70% 70% 30% 30%;
+  -moz-border-radius: 40% 40% 10% 10% / 70% 70% 30% 30%;
+  border-radius: 40% 40% 10% 10% / 70% 70% 30% 30%;
+}
+.s-toope-2 {
+  -webkit-border-radius: 30% 70% 70% 30% / 10% 40% 40% 10%;
+  -moz-border-radius: 30% 70% 70% 30% / 10% 40% 40% 10%;
+  border-radius: 30% 70% 70% 30% / 10% 40% 40% 10%;
+}
+.s-toope-3 {
+  -webkit-border-radius: 10% 10% 40% 40% / 30% 30% 70% 70%;
+  -moz-border-radius: 10% 10% 40% 40% / 30% 30% 70% 70%;
+  border-radius: 10% 10% 40% 40% / 30% 30% 70% 70%;
+}
+.s-toope-4 {
+  -webkit-border-radius: 70% 30% 30% 70% / 40% 10% 10% 40%;
+  -moz-border-radius: 70% 30% 30% 70% / 40% 10% 10% 40%;
+  border-radius: 70% 30% 30% 70% / 40% 10% 10% 40%;
+}
+.s-flag {
+  -webkit-border-radius: 100% 3px / 20% 3px;
+  -moz-border-radius: 100% 3px / 20% 3px;
+  border-radius: 100% 3px / 20% 3px;
+}
+.s-flag-2 {
+  -webkit-border-radius: 3px 100% / 3px 20%;
+  -moz-border-radius: 3px 100% / 3px 20%;
+  border-radius: 3px 100% / 3px 20%;
+}
+.s-flag-3 {
+  -webkit-border-radius: 3px 20% / 3px 100%;
+  -moz-border-radius: 3px 20% / 3px 100%;
+  border-radius: 3px 20% / 3px 100%;
+}
+.s-flag-4 {
+  -webkit-border-radius: 20% 3px / 100% 3px;
+  -moz-border-radius: 20% 3px / 100% 3px;
+  border-radius: 20% 3px / 100% 3px;
+}
+.s-kula {
+  -webkit-border-radius: 30% 70% 30% 30% / 50%;
+  -moz-border-radius: 30% 70% 30% 30% / 50%;
+  border-radius: 30% 70% 30% 30% / 50%;
+}
+.s-kula-2 {
+  -webkit-border-radius: 30% 30% 70% 30% / 50%;
+  -moz-border-radius: 30% 30% 70% 30% / 50%;
+  border-radius: 30% 30% 70% 30% / 50%;
+}
+.s-kula-3 {
+  -webkit-border-radius: 30% 30% 30% 70% / 50%;
+  -moz-border-radius: 30% 30% 30% 70% / 50%;
+  border-radius: 30% 30% 30% 70% / 50%;
+}
+.s-kula-4 {
+  -webkit-border-radius: 70% 30% 30% 30% / 50%;
+  -moz-border-radius: 70% 30% 30% 30% / 50%;
+  border-radius: 70% 30% 30% 30% / 50%;
+}
+.s-bird {
+  -webkit-border-radius: 60% 50% / 60% 20%;
+  -moz-border-radius: 60% 50% / 60% 20%;
+  border-radius: 60% 50% / 60% 20%;
+}
+.s-bird-2 {
+  -webkit-border-radius: 50% 60% / 20% 60%;
+  -moz-border-radius: 50% 60% / 20% 60%;
+  border-radius: 50% 60% / 20% 60%;
+}
+.s-bird-3 {
+  -webkit-border-radius: 60% 20% / 60% 50%;
+  -moz-border-radius: 60% 20% / 60% 50%;
+  border-radius: 60% 20% / 60% 50%;
+}
+.s-bird-4 {
+  -webkit-border-radius: 20% 60% / 50% 60%;
+  -moz-border-radius: 20% 60% / 50% 60%;
+  border-radius: 20% 60% / 50% 60%;
+}
+.s-hello {
+  -webkit-border-radius: 75% 30% 70% 20% / 30% 70% 30% 5%;
+  -moz-border-radius: 75% 30% 70% 20% / 30% 70% 30% 5%;
+  border-radius: 75% 30% 70% 20% / 30% 70% 30% 5%;
+}
+.s-hello-2 {
+  -webkit-border-radius: 20% 75% 30% 70% / 5% 30% 70% 30%;
+  -moz-border-radius: 20% 75% 30% 70% / 5% 30% 70% 30%;
+  border-radius: 20% 75% 30% 70% / 5% 30% 70% 30%;
+}
+.s-hello-3 {
+  -webkit-border-radius: 70% 20% 75% 30% / 30% 5% 30% 70%;
+  -moz-border-radius: 70% 20% 75% 30% / 30% 5% 30% 70%;
+  border-radius: 70% 20% 75% 30% / 30% 5% 30% 70%;
+}
+.s-hello-4 {
+  -webkit-border-radius: 30% 70% 20% 75% / 70% 30% 5% 30%;
+  -moz-border-radius: 30% 70% 20% 75% / 70% 30% 5% 30%;
+  border-radius: 30% 70% 20% 75% / 70% 30% 5% 30%;
+}
+.s-curv {
+  -webkit-border-radius: 80% 30% 70% 30% / 30% 70% 30% 80%;
+  -moz-border-radius: 80% 30% 70% 30% / 30% 70% 30% 80%;
+  border-radius: 80% 30% 70% 30% / 30% 70% 30% 80%;
+}
+.s-curv-2 {
+  -webkit-border-radius: 20% 40% 20% 40% / 40% 20% 40% 20%;
+  -moz-border-radius: 20% 40% 20% 40% / 40% 20% 40% 20%;
+  border-radius: 20% 40% 20% 40% / 40% 20% 40% 20%;
+}
+.s-curv-3 {
+  -webkit-border-radius: 30% 80% 30% 70% / 80% 30% 70% 30%;
+  -moz-border-radius: 30% 80% 30% 70% / 80% 30% 70% 30%;
+  border-radius: 30% 80% 30% 70% / 80% 30% 70% 30%;
+}
+.s-curv-4 {
+  -webkit-border-radius: 40% 20% 40% 20% / 20% 40% 20% 40%;
+  -moz-border-radius: 40% 20% 40% 20% / 20% 40% 20% 40%;
+  border-radius: 40% 20% 40% 20% / 20% 40% 20% 40%;
+}
+.s-rag {
+  -webkit-border-radius: 50% 50% 100% 3px / 20% 20% 20% 3px;
+  -moz-border-radius: 50% 50% 100% 3px / 20% 20% 20% 3px;
+  border-radius: 50% 50% 100% 3px / 20% 20% 20% 3px;
+}
+.s-rag-2 {
+  -webkit-border-radius: 50% 50% 3px 100% / 20% 20% 3px 20%;
+  -moz-border-radius: 50% 50% 3px 100% / 20% 20% 3px 20%;
+  border-radius: 50% 50% 3px 100% / 20% 20% 3px 20%;
+}
+.s-rag-3 {
+  -webkit-border-radius: 3px 100% 50% 50% / 3px 20% 20% 20%;
+  -moz-border-radius: 3px 100% 50% 50% / 3px 20% 20% 20%;
+  border-radius: 3px 100% 50% 50% / 3px 20% 20% 20%;
+}
+.s-rag-4 {
+  -webkit-border-radius: 100% 3px 50% 50% / 20% 3px 20% 20%;
+  -moz-border-radius: 100% 3px 50% 50% / 20% 3px 20% 20%;
+  border-radius: 100% 3px 50% 50% / 20% 3px 20% 20%;
+}
+.s-glap {
+  -webkit-border-radius: 50% / 70% 30% 30% 30%;
+  -moz-border-radius: 50% / 70% 30% 30% 30%;
+  border-radius: 50% / 70% 30% 30% 30%;
+}
+.s-glap-2 {
+  -webkit-border-radius: 50% / 30% 70% 30% 30%;
+  -moz-border-radius: 50% / 30% 70% 30% 30%;
+  border-radius: 50% / 30% 70% 30% 30%;
+}
+.s-glap-3 {
+  -webkit-border-radius: 50% / 30% 30% 70% 30%;
+  -moz-border-radius: 50% / 30% 30% 70% 30%;
+  border-radius: 50% / 30% 30% 70% 30%;
+}
+.s-glap-4 {
+  -webkit-border-radius: 50% / 30% 30% 30% 70%;
+  -moz-border-radius: 50% / 30% 30% 30% 70%;
+  border-radius: 50% / 30% 30% 30% 70%;
+}
+.s-holo {
+  -webkit-border-radius: 60% 50% / 50% 30%;
+  -moz-border-radius: 60% 50% / 50% 30%;
+  border-radius: 60% 50% / 50% 30%;
+}
+.s-holo-2 {
+  -webkit-border-radius: 50% 60% / 30% 50%;
+  -moz-border-radius: 50% 60% / 30% 50%;
+  border-radius: 50% 60% / 30% 50%;
+}
+.s-holo-3 {
+  -webkit-border-radius: 50% 30% / 60% 50%;
+  -moz-border-radius: 50% 30% / 60% 50%;
+  border-radius: 50% 30% / 60% 50%;
+}
+.s-holo-4 {
+  -webkit-border-radius: 30% 50% / 50% 60%;
+  -moz-border-radius: 30% 50% / 50% 60%;
+  border-radius: 30% 50% / 50% 60%;
+}
+.s-kullo {
+  -webkit-border-radius: 30% 70% 30% 5% / 75% 30% 70% 20%;
+  -moz-border-radius: 30% 70% 30% 5% / 75% 30% 70% 20%;
+  border-radius: 30% 70% 30% 5% / 75% 30% 70% 20%;
+}
+.s-kullo-2 {
+  -webkit-border-radius: 5% 30% 70% 30% / 20% 75% 30% 70%;
+  -moz-border-radius: 5% 30% 70% 30% / 20% 75% 30% 70%;
+  border-radius: 5% 30% 70% 30% / 20% 75% 30% 70%;
+}
+.s-kullo-3 {
+  -webkit-border-radius: 30% 5% 30% 70% / 70% 20% 75% 30%;
+  -moz-border-radius: 30% 5% 30% 70% / 70% 20% 75% 30%;
+  border-radius: 30% 5% 30% 70% / 70% 20% 75% 30%;
+}
+.s-kullo-4 {
+  -webkit-border-radius: 70% 30% 5% 30% / 30% 70% 20% 75%;
+  -moz-border-radius: 70% 30% 5% 30% / 30% 70% 20% 75%;
+  border-radius: 70% 30% 5% 30% / 30% 70% 20% 75%;
+}
+.s-bucket {
+  -webkit-border-radius: 3px 3px 20% 20% / 3px 3px 100% 100%;
+  -moz-border-radius: 3px 3px 20% 20% / 3px 3px 100% 100%;
+  border-radius: 3px 3px 20% 20% / 3px 3px 100% 100%;
+}
+.s-bucket-2 {
+  -webkit-border-radius: 100% 3px 3px 100% / 20% 3px 3px 20%;
+  -moz-border-radius: 100% 3px 3px 100% / 20% 3px 3px 20%;
+  border-radius: 100% 3px 3px 100% / 20% 3px 3px 20%;
+}
+.s-bucket-3 {
+  -webkit-border-radius: 20% 20% 3px 3px / 100% 100% 3px 3px;
+  -moz-border-radius: 20% 20% 3px 3px / 100% 100% 3px 3px;
+  border-radius: 20% 20% 3px 3px / 100% 100% 3px 3px;
+}
+.s-bucket-4 {
+  -webkit-border-radius: 3px 100% 100% 3px / 3px 20% 20% 3px;
+  -moz-border-radius: 3px 100% 100% 3px / 3px 20% 20% 3px;
+  border-radius: 3px 100% 100% 3px / 3px 20% 20% 3px;
+}
+.s-pick {
+  -webkit-border-radius: 30% 70% 50% 50% / 50%;
+  -moz-border-radius: 30% 70% 50% 50% / 50%;
+  border-radius: 30% 70% 50% 50% / 50%;
+}
+.s-pick-2 {
+  -webkit-border-radius: 50% 50% 70% 30% / 50%;
+  -moz-border-radius: 50% 50% 70% 30% / 50%;
+  border-radius: 50% 50% 70% 30% / 50%;
+}
+.s-pick-3 {
+  -webkit-border-radius: 50% 50% 30% 70% / 50%;
+  -moz-border-radius: 50% 50% 30% 70% / 50%;
+  border-radius: 50% 50% 30% 70% / 50%;
+}
+.s-pick-4 {
+  -webkit-border-radius: 70% 30% 50% 50% / 50%;
+  -moz-border-radius: 70% 30% 50% 50% / 50%;
+  border-radius: 70% 30% 50% 50% / 50%;
+}
+.s-bomb {
+  -webkit-border-radius: 50% / 70% 50% 50% 30%;
+  -moz-border-radius: 50% / 70% 50% 50% 30%;
+  border-radius: 50% / 70% 50% 50% 30%;
+}
+.s-bomb-2 {
+  -webkit-border-radius: 50% / 50% 70% 30% 50%;
+  -moz-border-radius: 50% / 50% 70% 30% 50%;
+  border-radius: 50% / 50% 70% 30% 50%;
+}
+.s-bomb-3 {
+  -webkit-border-radius: 50% / 50% 30% 70% 50%;
+  -moz-border-radius: 50% / 50% 30% 70% 50%;
+  border-radius: 50% / 50% 30% 70% 50%;
+}
+.s-bomb-4 {
+  -webkit-border-radius: 50% / 30% 50% 50% 70%;
+  -moz-border-radius: 50% / 30% 50% 50% 70%;
+  border-radius: 50% / 30% 50% 50% 70%;
 }
 @-webkit-keyframes slideDown {
   0% {
